@@ -1,13 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saturn Calligraphy | Artistic Handwriting</title>
+    <!-- Link to CSS file in the css folder -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Saturn Calligraphy</title>
 </head>
 <body>
-    <h1>Welcome to Saturn Calligraphy</h1>
-    <p>Your journey into the art of calligraphy begins here.</p>
+    <header class="site-header">
+        <div class="container header-content">
+            <h1 class="logo">Saturn Calligraphy</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-content">
+                <h2>Calligraphy and Living Art!</h2>
+                <p>Unique artistic creations made with love and precision.</p>
+                <a class="btn-primary" href="#gallery">View Gallery</a>
+            </div>
+        </section>
+        
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2>Art Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/work1.jpg" alt="Artwork Sample 1">
+                        <p class="work-title">Artwork Title 1</p>
+                        <a class="btn-outline" href="https://wa.me/989123456789" target="_blank">Order via WhatsApp</a>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/work2.jpg" alt="Artwork Sample 2">
+                        <p class="work-title">Artwork Title 2</p>
+                        <a class="btn-outline" href="https://wa.me/989123456789" target="_blank">Order via WhatsApp</a>
+                    </div>
+                    <!-- Add more artworks here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section section-alt">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    I am a calligraphy artist with years of experience in creating original and modern artworks.
+                    Each piece is designed according to your preferences and crafted with attention to detail to deliver a unique and lasting result.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>For orders, collaborations, or further questions, reach out through the following links:</p>
+                <div class="contact-links">
+                    <a class="btn-primary" href="https://wa.me/989123456789" target="_blank">WhatsApp</a>
+                    <a class="btn-outline" href="https://instagram.com/your_profile" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Saturn Calligraphy. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
